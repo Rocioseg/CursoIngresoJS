@@ -3,7 +3,7 @@ y luego mostrarlo por 'Alert' al presionar el botón  'MOSTRAR'*/
 function Mostar()
 {
 	document.getelementbyid("elNombre").value;
-	
+	ww
 }
 
 
