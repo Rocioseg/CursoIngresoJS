@@ -3,7 +3,7 @@ function Mostrar()
 	var a;
 	a = document.getElementById("edad").value;
 	a = parseInt (a); //convertir a numero//
-	if (a >= 18)
+	if (a >= 18) // cerrar todas las llaves //
 	{
 	 alert ("La persona es mayor de edad");
     }
