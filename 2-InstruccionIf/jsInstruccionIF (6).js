@@ -2,7 +2,7 @@ function Mostrar()
 {
 	var a;
 	a = document.getElementById("edad").value;
-	a = parseInt (a); //convertir a numero//
+	a = parseInt (a); //convertir a numero si o si//
 	if (a >= 18) // cerrar todas las llaves //
 	{
 	 alert ("La persona es mayor de edad");
