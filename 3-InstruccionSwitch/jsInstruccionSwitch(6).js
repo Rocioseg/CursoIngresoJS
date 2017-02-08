@@ -1,8 +1,8 @@
 function Mostrar()
 {  
-var hora = document.getElementById("hora").value;
+var horita = document.getElementById("hora").value;
 hora = parseInt (hora);
-switch (hora)
+switch (horita)
 {
 	case 7:
 	case 8:
