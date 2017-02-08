@@ -5,7 +5,7 @@ function Mostrar()
 	a = document.getElementById("edad").value;
 	a = parseInt (a);
 	estado = document.getElementById("estadoCivil").value;
-	if (a < 18 && !(estado == "Soltero"))
+	if (a < 18 && estado !== "Soltero")
 	{
 		alert("Es muy joven para NO ser soltero");
 	}
